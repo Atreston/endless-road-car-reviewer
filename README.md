@@ -3,14 +3,13 @@
 This is a little project made with the goal of test the Meteor Tools to develop applications and the Meteor Cloud to deploy apps to the internet. It consist of a small web page made with basic functionality based on Svelte and Tailwind.
 
 The web page is intended to show a brief car catalog with short descriptions of cars and brands.
-# Tools to study and develop
+
+# Intended features and  tools to implement
 ### charts in web pages
 * [css graphs charts - YouTube](https://www.youtube.com/results?search_query=css+graphs+charts)
 * [Getting Started With Chart.js - YouTube](https://www.youtube.com/watch?v=sE08f4iuOhA)
 * [Responsive Admin panel Using HTML, CSS, Chart.js - YouTube](https://www.youtube.com/watch?v=_X8Trmj1oMY)
 * [Chart JS Integration | Responsive Admin Dashboard using Html CSS & Javascript | Charts And Graphs - YouTube](https://www.youtube.com/watch?v=q3zc1ph5fvg)
-
-----
 
 ### Disqus
 * [Disqus - The #1 way to build an audience on your website](https://disqus.com/)
@@ -84,7 +83,7 @@ The web page is intended to show a brief car catalog with short descriptions of 
 * [Footer by Creative Tim | Navigations, Pages](https://tailwindcomponents.com/component/footer-5)
 * [Responsive footer by haynajjar | Pages, Widget](https://tailwindcomponents.com/component/responsive-footer-1)
 
-# Workflow and steps
+# Workflow and steps followed in development
 ### workflow
 1. Create meteor-svelte project with the command `meteor create --svelte simple-project`
 2. Install PostCSS by:
@@ -129,8 +128,8 @@ Make sure that the plugins that you list in "plugins" are also in "devDependenci
 15. `meteor npm install --save-dev postcss@latest postcss-load-config@latest`
 16. `meteor npm install`
 
-# Concepts and FAQs
----
+# Concepts, FAQs, and HowTos
+
 ## How to Fetch Data in Svelte
 Let’s start by importing the `onMount` hook from Svelte, like so:
 
@@ -225,8 +224,7 @@ posts = data;
 
 * [How to Fetch Data in Svelte - SitePoint](https://www.sitepoint.com/svelte-fetch-data/)
 
----
-## Project development workflow
+## Project development issues
 ### Lazy loading in javascript
 #### What is lazy image loading?
 Many websites like Facebook, Linkedin, Pinterest or ecommerce sites like Flipkart, Amazon have lots of image, They do no load all image at once on page load.
@@ -261,7 +259,6 @@ window.addEventListener('resize', throttle(lazyLoad, 700));
 
 * [How to do lazy loading in javascript - LearnersBucket](https://learnersbucket.com/examples/interview/how-to-do-lazy-loading-in-javascript/)
 
----
 ## Lifecycle / onMount in svelte
 Every component has a _lifecycle_ that starts when it is created, and ends when it is destroyed. There are a handful of functions that allow you to run code at key moments during that lifecycle.
 
@@ -290,7 +287,6 @@ If the `onMount` callback returns a function, that function will be called when 
 
 * [Lifecycle / onMount • Svelte Tutorial](https://svelte.dev/tutorial/onmount)
 
----
 #### What is lazy loading?
 According to [Wikipedia](https://en.wikipedia.org/wiki/Lazy_loading), lazy loading is a pattern designed to hold off the initialization of an element or an object until it is needed. What this means is that a target DOM element, relative to a parent DOM element, is loaded and becomes visible (when there is an intersection between both elements, based on a set threshold value) only when a user scrolls through them on a webpage.
 
@@ -317,7 +313,7 @@ meteor create --svelte simple-todos-svelte
 ```
 
 * [1: Creating the app | Meteor Svelte Tutorial](https://svelte-tutorial.meteor.com/simple-todos/01-creating-app.html)
----
+
 
 ## Git Issues
 ```shell
@@ -348,7 +344,7 @@ git remote add upstream git@bitbucket.org:some-gatekeeper-maintainer/some-pr
 ```
 
 * [Git Forks and Upstreams: How-to and a cool tip | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
----
+
 
 
 ## MongoDB
