@@ -259,6 +259,11 @@ window.addEventListener('resize', throttle(lazyLoad, 700));
 
 * [How to do lazy loading in javascript - LearnersBucket](https://learnersbucket.com/examples/interview/how-to-do-lazy-loading-in-javascript/)
 
+### Git file endings
+Formatting and whitespace issues are some of the more frustrating and subtle problems that many developers encounter when collaborating, especially cross-platform. It’s very easy for patches or other collaborated work to introduce subtle whitespace changes because editors silently introduce them, and if your files ever touch a Windows system, their line endings might be replaced. Git has a few configuration options to help with these issues.
+
+* [Git - Git Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_formatting_and_whitespace)
+
 ## Lifecycle / onMount in svelte
 Every component has a _lifecycle_ that starts when it is created, and ends when it is destroyed. There are a handful of functions that allow you to run code at key moments during that lifecycle.
 
