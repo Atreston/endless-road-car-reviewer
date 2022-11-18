@@ -1,0 +1,10 @@
+name: Playwright Test
+
+on: push
+
+jobs:
+  Playwright_Test_Job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Testing GitHub Action Workflow"
